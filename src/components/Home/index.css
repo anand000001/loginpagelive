@@ -1,0 +1,74 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    background-color: gainsboro;
+    margin: 20px;
+    
+   
+   
+  }
+  
+  .input-element{
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+  }
+  .list-view{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .products-list-heading{
+    margin-left: 40px;
+    color: darkgreen;
+    font-size: 30px;
+  }
+  
+  .heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color:rgb(24, 21, 21);
+  }
+  
+  .line{
+    color: rgb(153, 156, 158);
+    width: 100%;
+    border-style: solid;
+    height: 0px;
+  }
+  .summary{
+    background-color: lightsteelblue;
+    
+    width: 80%;
+    
+  }
+  .list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+  .head{
+    font-size: 15px;
+    color: rgb(105, 92, 92);
+  }
+  .main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .sub-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chart-container{
+    height: 50vh;
+    width: 60%;
+  }

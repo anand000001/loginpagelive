@@ -1,0 +1,54 @@
+.dash-board{
+    display: flex;
+    flex-direction: row;
+}
+
+.list-card-container{
+    list-style-type: none;
+  
+}
+
+.second-item{
+    
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+    
+
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgb(24, 21, 21);
+}
+
+.line{
+    color: rgb(153, 156, 158);
+    width: 100%;
+    border-style: solid;
+    
+    
+}
+
+.order{
+    background-color: yellow;
+}
+
+.order_1{
+    background-color: aqua;
+}
+.check-box{
+    height: 12px;
+    width: 12px;
+    padding-top: 0px;
+}
+.heading{
+    color: cadetblue;
+    font-size: 11px;
+}
